@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zyronclient",
+  "version": "${version}",
+  "name": "Zyron Client",
+  "description": "Zyron Client V1 - a modular client-side utility mod with a ClickGUI, HUD editor and per-module settings.",
+  "authors": ["Zyron"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.zyron.client.ZyronClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
